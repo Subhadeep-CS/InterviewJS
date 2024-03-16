@@ -6,7 +6,7 @@ InterviewJS is a curated collection of essential JavaScript interview questions 
 
 |QUESTION NUMBER|           QUESTIONS                       |
 |---------------|-------------------------------------------|
-|       1       |[What's Javascript?](#whats-javascript?)|
+|       1       |  [What's Javascript?](#whats-javascript)  |
 |---------------|-------------------------------------------|
 |       2       |
 
