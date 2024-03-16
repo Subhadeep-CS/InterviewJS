@@ -6,7 +6,7 @@ InterviewJS is a curated collection of essential JavaScript interview questions 
 
 |QUESTION NUMBER|           QUESTIONS                       |
 |---------------|-------------------------------------------|
-|       1       | [What's Javascript?](##What's javascript?)|
+|       1       | [What's Javascript]                       |
 |---------------|-------------------------------------------|
 |       2       |
 
@@ -95,4 +95,71 @@ List of available data type in Javascript:-
 
 In the case of reference type the memory refernce store inside the variable in the case of value type the actual value store inside the variable.We will discuss it later.
 
-## Horizontal Rules
+-----------------------------------------------------------------------------------------
+
+## What's string?
+
+String is the combination of one or more character enclosed by single and double quotes.
+
+Syntax for declaring string
+
+var s="String";
+var s1='string2';
+
+## What's string indexing?
+
+In javascript,every character in a string denoted by a special number called index,that's actually string indexing. Javascript follows the 0-based indexing that means first character of string always in 0th index and last character always in length of the string-1 index.
+
+For example
+
+var s="String";
+
+Here indexing acts as follows
+
+index           character
+0---------------- S
+1---------------- t
+2---------------- r
+3---------------- i
+4---------------- n
+5---------------- g
+
+We can print the all character by using for loop.
+
+for(let i=0; i<s.length; i++)
+{
+    console.log(s[i]);
+}
+
+##  How to find the length of the string?
+
+To finding the length of the string we have a property of String object called length by using this length property we find the length of the string.The length poperty return a Number specify the length of the string.
+
+var s="String";
+s.length 
+
+It will return 6.
+
+## What's string immutability?
+
+In javascript,String is immutable in nature that means after declaring a string we cannot update the value of the string without any assignment
+
+Suppose we declare 
+
+var s="String";
+
+If I do 
+
+s.toLowerCase();
+console.log(s);
+
+Now,we see in the console the same string so the string value does not updated.That's string immutability.
+
+## How to convert number to string?
+
+There's two ways to convert number to string
+
+1.By adding a empty string.
+
+var s=20;
+
